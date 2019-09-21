@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+/* codes starting with instruction */
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+a {
+  font-size: 18px;
+  color: #c12258;
+  text-decoration: underline;
+}
+
+a:focus {
+  border: 1px solid red;
+}
+
+body {
+  background-image: url("../images/pidgeon-background.jpg");
+  background-repeat: no-repeat;
+  color: #ddddd;
+  font-family: 'Quicksand', sans-serif;
+}
+
+table {
+  border: 2px solid #000;
+  border-radius: 10px;
+  border-collapse: separate;
+}
+
+.colhead {
+  min-width: 150px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0830;
+}
+
+td, th {
+  text-align: center;
+  border-bottom: 2px;
+  padding: 15px;
+}
+
+tbody td  {
+  border-top: 2px solid #000;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+thead tr th:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+
+thead tr th:nth-child(7) {
+  border-top-right-radius: 10px;
+}
+
+tbody tr:nth-child(10) th {
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:nth-child(10) td:nth-child(7) {
+  border-bottom-right-radius: 10px;
+}
+
+tr:hover {
+  background-color: #fab9cf;
+}
+
+.rowhead {
+  border-top: 2px solid #000;
+}
+
+footer p {
+  color: #fff;
+  background-color: #000;
+  min-height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
